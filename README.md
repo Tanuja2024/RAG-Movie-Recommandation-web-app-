@@ -22,7 +22,7 @@ Built with **Node.js + Express** for the backend, **Together.ai** for embeddings
 - **Development:** Nodemon for auto-restart
 - 
 ---
-## 📂 Project Structure
+
 
 ## 📂 Project Structure
 

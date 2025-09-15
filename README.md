@@ -40,6 +40,9 @@ RAG/
 └─ package-lock.json
 
 
+## 🔄 Project Flow
+
+```mermaid
 flowchart LR
     A[User Query] --> B[Generate Embeddings (Together.ai)]
     B --> C[Vector Search (Find Similar Movies)]

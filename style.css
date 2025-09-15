@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3e2f71, #b54f95);
+    color: white;
+    padding: 2rem;
+    display: flex;
+    
+    justify-content: center;
+   
+    
+    
+  }
+  
+  .container {
+    max-width: 400px;
+    background-color: #1f1f2e;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #00000088;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  textarea, select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #33cc99;
+    border: none;
+    border-radius: 12px;
+ 
+    
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+ 

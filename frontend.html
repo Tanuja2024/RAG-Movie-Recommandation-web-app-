@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PopChoice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🍿 PopChoice</h1>
+    <form id="movie-form">
+      <label>What's your favorite movie and why?</label>
+      <textarea id="favoriteMovie" required></textarea>
+
+      <label>Are you in the mood for something new or a classic?</label>
+      <select id="type">
+        <option value="new">New (after 1990)</option>
+        <option value="classic">Classic</option>
+      </select>
+
+      <label>Do you wanna have fun or do you want something serious?</label>
+      <select id="tone">
+        <option value="fun">Fun</option>
+        <option value="serious">Serious</option>
+      </select>
+
+      <button type="submit">Let's Go</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>🎬 We recommend:</h2>
+      <p id="movieRecommendation"></p>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+  
+</body>
+</html>

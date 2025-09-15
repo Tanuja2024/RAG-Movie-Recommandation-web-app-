@@ -24,6 +24,9 @@ Built with **Node.js + Express** for the backend, **Together.ai** for embeddings
 ---
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 RAG/
 ├─ utils/
 │  ├─ chat.js
@@ -38,6 +41,7 @@ RAG/
 ├─ style.css
 ├─ package.json
 └─ package-lock.json
+
 
 
 ## 🔄 Project Flow

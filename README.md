@@ -43,7 +43,7 @@ RAG/
 ## 🔄 Project Flow
 
 
-**flowchart LR
+**flowchart LR**
     **A**[User Query] --> B[Generate Embeddings (Together.ai)]
     **B** --> C[Vector Search (Find Similar Movies)]
     **C** --> D[Retrieve Relevant Movie Data]

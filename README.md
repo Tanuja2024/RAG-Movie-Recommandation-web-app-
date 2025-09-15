@@ -19,16 +19,16 @@ Built with **Node.js + Express** for the backend, **Together.ai** for embeddings
 - **Backend:** Node.js, Express  
 - **AI & RAG:** Together.ai API (Embeddings + Chat Model)  
 - **Libraries:** Dotenv,Express,@supabase/supabase-js,cors  
-- **Development:** Nodemon for auto-restart  
-
+- **Development:** Nodemon for auto-restart
+- 
 ---
-
 ## 📂 Project Structure
+
 RAG/
 ├─ utils/
-│ ├─ chat.js
-│ ├─ embed.js
-│ └─ supabaseclient.js
+│  ├─ chat.js
+│  ├─ embed.js
+│  └─ supabaseclient.js
 ├─ .env
 ├─ content.js
 ├─ frontend.html
@@ -38,17 +38,18 @@ RAG/
 ├─ style.css
 ├─ package.json
 └─ package-lock.json
+
 ---
 
 ## 🔄 Project Flow
 
+```mermaid
+flowchart LR
+    A[User Query] --> B[Generate Embeddings (Together.ai)]
+    B --> C[Vector Search (Find Similar Movies)]
+    C --> D[Retrieve Relevant Movie Data]
+    D --> E[LLM (Together.ai)]
+    E --> F[Generate Natural Language Recommendation]
+    F --> G[Send Response to Frontend]
+    G --> H[Display Movie Suggestions]
 
-**flowchart LR**
-    **A**[User Query] --> B[Generate Embeddings (Together.ai)]
-    **B** --> C[Vector Search (Find Similar Movies)]
-    **C** --> D[Retrieve Relevant Movie Data]
-    **D** --> E[LLM (Together.ai)]
-    **E** --> F[Generate Natural Language Recommendation]
-    **F** --> G[Send Response to Frontend]
-    **G** --> H[Display Movie Suggestions]
----

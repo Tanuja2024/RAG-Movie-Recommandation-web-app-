@@ -39,17 +39,15 @@ RAG/
 ├─ package.json
 └─ package-lock.json
 
----
 
 ## 🔄 Project Flow
 
 ```mermaid
 flowchart LR
-    A[User Query] --> B[Generate Embeddings (Together.ai)]
-    B --> C[Vector Search (Find Similar Movies)]
+    A[User Query] --> B[Generate Embeddings - Together.ai]
+    B --> C[Vector Search - Find Similar Movies]
     C --> D[Retrieve Relevant Movie Data]
-    D --> E[LLM (Together.ai)]
+    D --> E[LLM - Together.ai]
     E --> F[Generate Natural Language Recommendation]
     F --> G[Send Response to Frontend]
     G --> H[Display Movie Suggestions]
-

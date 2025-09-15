@@ -38,7 +38,7 @@ RAG/
 ├─ style.css
 ├─ package.json
 └─ package-lock.json
-
+---
 
 ## 🔄 Project Flow
 
@@ -51,3 +51,4 @@ RAG/
     **E** --> F[Generate Natural Language Recommendation]
     **F** --> G[Send Response to Frontend]
     **G** --> H[Display Movie Suggestions]
+---
